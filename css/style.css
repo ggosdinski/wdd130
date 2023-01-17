@@ -8,6 +8,10 @@
   }
 ESTO CENTRA TODO EL CONTENIDO EN LA PAGINA. */
 
+body {
+    margin: 0;
+}
+
 nav, footer {
     background-color: steelblue;
     padding: 10px;
@@ -17,7 +21,8 @@ a {
     font-size: 1.5em;
     color: white;
     margin: 40px;
-    line-height: 1em;
+    line-height: 1.5em;
+    padding: 10px;
 }
 h1, h2 {
     color: steelblue;
@@ -25,15 +30,17 @@ h1, h2 {
 }
 
 img {
-    width:  15%; 
+    padding: 25px;
+    width: 80%;
     display: block;
-    margin: 0 auto;   
+    margin: 50px auto;
     border: 4px solid steelblue;
 }
 
 p {
     padding: 10px;
     text-align: center;
+    margin: 25px auto;   
 }
 
 #active {
