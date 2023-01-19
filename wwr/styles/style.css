@@ -1,10 +1,15 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
 #content{
     max-width: 1600px;
     margin: 0 auto
+
 }
 
-nav a,#hero-msg h1, #hero-msg h4
-.button-box,main section{
+nav a,#hero-msg h1, #hero-msg 
+, main section{
     text-align: center
     
 }
@@ -15,34 +20,61 @@ nav a,#hero-msg h1, #hero-msg h4
     
 body {
     background-color: #fcfbfb; 
+     font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
+
+h2{
+    margin: 0;
+}
+
 header {
     background-color: #392310;
 }
 
+nav a{
+    padding: 35px;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
 nav a:hover {
-    background-color: whitesmoke;
+    color:  #D1603D;
 }
 
 .menu{
-    color: #D1603D;
+    color: white;
 }
 .join{
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: #D1603D;
 } 
 
 .join:hover{
-   color:  #D1603D;
+   color: black;
 }
 
 .book{
-    color: #392310;
+    color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color:  #D1603D;
 }
 
 .book:hover{
-    color:  #D1603D;
+    color: black;
 }
 
 #background{
@@ -52,13 +84,30 @@ nav a:hover {
 .msg{
     background-color: #133d21;
     color: white;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.msg p{
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer{
     background-color: #133d21;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
+.card-img {
+    border: 10px solid #392215;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+   
 .logo{
     width: 80px;
 }
@@ -74,6 +123,7 @@ footer{
 footer a{
     text-decoration: none;
     color: white;
+    padding-top: 10px;
 }
 
 footer p {
@@ -83,3 +133,21 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 } 
+
+footer .social img{
+    padding-top: 15px;
+}
+.button-box, h4{
+    text-align: center;
+}
+
+.home-title{
+    font-family:cursive;
+    color: #D1603D;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
