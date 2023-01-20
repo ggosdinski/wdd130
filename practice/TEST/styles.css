@@ -1,0 +1,35 @@
+    *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+    /*Reiniciar valores del navegador*/
+    html {
+    font-size: 62.5%;
+    }
+    /*Preparar medidas REM*/
+    main div {
+    border: 0.1rem #360042 solid;
+    }
+    /*Le hace un borde color negro a los div. En este caso son 2.*/
+    .title-box {
+    border-radius: 1rem;
+    color: white;
+    background-color: purple;
+    font-size: 1.8rem;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    width: 15rem;
+    position: relative;
+    top: 3rem;
+    }
+    
+    .content-box {
+    font-size: 1.6rem;
+    background-color: #FFC8FB;
+    margin:  0 auto;
+    border-radius: 5rem;
+    width: 50rem;
+    padding: 7.5rem 5rem;
+    }

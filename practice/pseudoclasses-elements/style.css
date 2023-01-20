@@ -1,0 +1,37 @@
+.main-nav{
+    margin-top: 10px;
+    list-style: none;/*Elimina los bullets de una UL*/
+    padding-left: 0;
+    background-color: #13a4a4;
+}
+
+.main-nav__item{
+    display: inline-block;/*Ordenar item horizontalmente*/
+}
+
+.main-nav__item a{
+    /* Uso la a para llamar a los elementos dentro de la lista*/
+    color: white;
+    padding: 5px;
+    border-radius: 8px; /*Redondea las esquinas*/
+    text-decoration: none;
+    /*background-color:  black;*/
+}
+
+/*PSEUDOCLASSES*/
+/*Basicamente son caracteristicas adicionales que podemos editar con CSS*. Definen un ESTADO.*/
+.main-nav__item a:hover{ /*Cambio el color de la fuenta cuando pasamos el mouse.*/
+    color: black;
+}
+
+.main-nav__item a:active{
+    color: pink;
+}
+
+/*PSEUDOELEMENTS*/
+/*Se llaman con :: definen una parte especifica de un ELEMENTO. */
+.main-nav__item a::after{
+    content: " | ";
+}
+
+

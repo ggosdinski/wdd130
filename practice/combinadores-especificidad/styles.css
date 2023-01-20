@@ -1,0 +1,25 @@
+/*Adjacent Siblins*/
+h2 + p {
+    color: red;
+}
+/*Todos los P que esten debajo de un H2 seran de color rojo.*/
+
+h2 ~ p{
+    color: red;
+}
+/*Todos los P que tengan como hermano general un H2 (en la misma linea), seran
+de color rojo.*/
+
+/*Otro combinador es el siguiente:
+ELEMENTO > ELEMENTO
+por ejemplo:
+div >p{}
+Esto significa que todo P que sea hijo DIRECTO  de un DIV va a tener el estilo especificado.
+Cuenta tanto para arriba como para abajo. 
+*/
+
+/*La combinacion descendiente es la usamos normalmente, 
+cuando un elemento esta dentro de otro, por ejemlo: 
+nav a
+que se refiere a cada enlace dentro del nav.*/
+

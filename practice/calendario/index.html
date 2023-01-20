@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario</title>
+</head>
+<body>
+    <form action=""><!--Usamos la etiquete de formularios-->
+        <label for="hora">
+            <span>hora</span>
+            <input type="time" id="hora" name="hora"><!--Un type especifico por campo-->
+                <!--NAME guarda las respuestas y las muestra en el link despues de enviar.
+                Se puede almacenar y luego enviar a la base de datos.-->
+        </label>    
+        <label for="dia">
+            <span>dia</span>
+            <input type="date" id="dia" name="dia">
+        </label>
+        <label for="semana">
+            <span>semana</span>
+            <input type="week" id="semana" name="semana">
+        </label>
+        <label for="mes">
+            <span>mes</span>
+            <input type="month" id="mes" name="mes">
+        </label>
+        <input type="submit"><!--Coloca un cuadro de enviar cuando se llena el form-->
+    </form>
+</body>
+</html>

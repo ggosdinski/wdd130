@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Document</title>
+</head>
+<body>
+<main>
+<section>
+<video controls preload="auto"> <!--Controls va a mostrar los controles de reproduccion y
+preload ="auto" le pide al navegador que cuando se cargue, tmb cargue el video.
+NO lo reproduce automaticamente, solo lo carga.-->
+<source src="./Episodio4.m4v#t=10,60" />
+    <!--Aca puedo poner todos los formatos que tenga del mismo video. El navegador va a entender
+    de que se trata y elige el primero que sea compatible. 
+    Se puede terminar con la extension del formato pero si quiero que el vide se reproduzca
+    desde un segundo en especial y termine en un segundo especifico, lo puedo declarar despues
+    del signo # y poniendo DONDE EMPIEZA y DONDE TERMINA.-->
+<source src="./Episodio4.mp4#t=10,60" />
+</video>
+</section>
+</main>
+</body>
+</html>

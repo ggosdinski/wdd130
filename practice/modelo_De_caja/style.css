@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*DE ESTA FORMA ELIMINO TODOS LOS FORMATOS PRESTABLECIDOS POR EL NAVEGADOR. 
+RECOMENDADO.*/
+
+
+main{
+    width: 100%;
+    height: 500px;
+    border: 10px solid grey;
+    padding: 20px 35px;
+}
+
+/*UNA MEJOR PRACTICA ES UTILIZAR NORMALIZE.CSS, DESCARGAR DESDE LA WEB*/
+

@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*Lo que ponga en esta seccion se aplica a todo el contenido hijo.*/
+
+p{
+    padding-top: 15px;
+}
+
