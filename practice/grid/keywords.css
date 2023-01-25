@@ -1,0 +1,25 @@
+.contenedor{
+    border: 2px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.item{
+    border: 2px solid #00bcd4;
+    font-size: 2rem;
+}
+
+.contenedor2{
+    border: 2px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(100px, 1fr));
+    margin-top: 100px;
+}
+/*AUTO FIT LLENA TODO EL GRID CON LAS COLUMNAS DECLARADS.
+Hace que las columnas que si tienen contenido se expandan.
+AUTO FILL LLENA CON COLUMNAS "IMAGINARIAS" HASTA EL BORDE DEL GRID.
+Hace que las columnas que NO tienen contenido se expandan como si
+lo tuviesen.*/
+
