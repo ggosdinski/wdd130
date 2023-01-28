@@ -32,7 +32,7 @@ main {
     justify-content: center;
     /*Alinea horizontal*/
     /*background-color: rgb(12, 61, 134);*/
-    background: url(./3145610desenfocado.jpg)center/cover no-repeat;
+    background: url(./3394-desenfocado.jpg)center/cover no-repeat;
     /*Centra la imagen de fondo*/
 }
 
@@ -112,6 +112,7 @@ main {
 .country {
     display: grid;
     grid-template-columns: 20px 60px;
+
 }
 
 .country:hover {
@@ -151,11 +152,11 @@ span {
     font-weight: 700;
 }
 
-/*.followers {
+.followers {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}*/
+}
 
 .following {
      display: flex;
@@ -168,7 +169,7 @@ span {
     display: flex;
     width: 100%;
     padding: 20px;
-    padding-top: 13px;
+    padding-top: 11px;
     justify-content: center;
     align-items: center;
     font-size: 1.9rem;
@@ -180,7 +181,7 @@ span {
     display: flex;
     width: 100%;
     padding: 20px;
-    padding-top: 13px;
+    padding-top: 11px;
     justify-content: center;
     align-items: center;
     font-size: 1.9rem;
