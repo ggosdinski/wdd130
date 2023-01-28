@@ -5,18 +5,20 @@
 html {
     font-size: 62.5%;
 }
+/*Preparamos los valores para usar medidas REM*/
 
 body {
     font-family: 'Roboto Mono', monospace;
     margin: 0;
     padding: 0;
 }
+/*Quitamos el padding y margin propios de la pagina*/
 
 a {
     text-decoration: none;
     color: black;
 }
-
+/*Elimina el formato de link de los elementos A*/
 /* ------------------------------------------------------ */
 
 main {
@@ -25,7 +27,8 @@ main {
     height: 100vh;
     align-items: center;
     justify-content: center;
-    background-color: rgb(12, 61, 134);
+    /*background-color: rgb(12, 61, 134);*/
+    background: url(./3145610desenfocado.jpg)center/cover no-repeat;
 }
 
 .card-container {
@@ -64,14 +67,14 @@ main {
 
 /* ------------------------------------------------------ */
 
-.card_profile {
+.content {
     display: flex;
     width: 100%;
     margin: 45px auto 20px;
     flex-direction: column;
 }
 
-.card_profile h1 {
+.content h1 {
     width: 65%;
     margin: 10px auto 7px;
     font-size: 2.5rem;
@@ -80,7 +83,7 @@ main {
     color: #025395;
 }
 
-.card_profile p {
+.content p {
     padding: 0 30px;
     font-size: 1.2rem;
     letter-spacing: 1px;
