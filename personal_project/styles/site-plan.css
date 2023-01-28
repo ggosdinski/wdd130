@@ -35,7 +35,13 @@ body {
   font-size: 18px;
   text-align: center;
 }
+.list{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(7,1fr);
+}
 img {
+  width: 100%;
   display: block;
   margin: 0 auto;
 }
