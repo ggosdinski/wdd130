@@ -1,0 +1,116 @@
+:root{
+    --very-light-pink:#c7c7c7;
+    --text-input-field:#f7f7f7;
+    --hospital-green:#acd9b2;
+    --white:#ffffff;
+    --black:#000000;
+    --sm:12px;
+    --md:14px;
+    --lg:20px;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.sent-email{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.form-container{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 300px;
+    justify-items: center;
+}
+
+.logo{
+    width: 150px;
+    margin-bottom: 48px;
+    justify-self: center;
+    display: none;
+   /*No se muestra en la version desktop.
+   Si en la version mobile*/
+}
+
+.title{
+    font-size: var(--lg);
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight:bolder;
+}
+
+.subtitle{
+    color: var(--very-light-pink);
+    font-size: var(--md);
+    text-align: center;
+    font-weight:700;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.logo-mail-container{
+    background-color: var(--text-input-field);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px ;
+}
+
+.logo-mail{
+    width: 90px;
+}
+
+.button{
+    background-color: var(--hospital-green);
+    border: none;
+    border-radius: 8px;
+    height: 50px;
+    color: var(--white);
+    font-size: var(--lg);
+    width: 100%;
+    cursor: pointer; /*Transforma el cursor en una mano en Hover*/
+    font-weight: bold;
+}
+
+.resend{
+    display: flex;
+    gap: 10px;
+    place-content: center;
+}
+.resend span{
+    color: var(--black);
+    font-size: var(--sm);
+    text-align: center;
+    font-weight:bolder;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 2px;
+}
+
+.resend a{
+    color: var(--hospital-green);
+    font-size: var(--md);
+    text-align: center;
+    font-weight:bolder;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+@media (max-width:640px) {
+    .logo{
+        display: block;
+    }   /*Cuando el ancho sea de hasta 640 px va a mostrar el logo.
+        Superando esa cantidad, no lo muestra. Eso seria desktop y 
+        la pagina va a tener otra configuracion*/
+}
+
