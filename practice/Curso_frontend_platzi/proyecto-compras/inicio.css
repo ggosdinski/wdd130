@@ -16,7 +16,8 @@
 
 .cards-container{
     display: grid;
-    grid-template-columns: repeat(auto-fill, 240px);
+    grid-template-columns: repeat(auto-fit, 240px);
+    /* Genera la cantidad de columnas que entren en el ancho de la pagina. Columnas de 240 px */
     gap: 26px;
     place-content: center;
 }
@@ -30,6 +31,12 @@
     height: 240px;
     border-radius: 20px;
     object-fit: cover;
+    transition: 0.5s;
+}
+
+.product-card img:hover{
+    transform:scale(1.1);
+    /* filter: blur(5px); */
 }
 
 .product-info{
@@ -74,7 +81,7 @@
     .product-card img{
         width: 140px;
         height: 140px;
-       
     }
     
 }
+
