@@ -9,12 +9,6 @@ html{
     background-color: black;
 }
 
-/* .main-container{
-    width: 100vw;
-    height: 100vh;
-} */
-
-
 .nav-bar, .menu{
     display: flex;
     background-color: black;
@@ -26,17 +20,8 @@ html{
     padding: 0 24px;
     margin-top: 30px;
     height: 10vh;
+    width: 100vw;
 }
-
-/* .logo-marca{
-    width: 15px;
-    margin-right: 150px;
-    margin-top: 0;
-    z-index: 1;
-    position: relative;
-    object-fit: cover;
-    
-} */
 
 .menu{
     list-style: none;
@@ -100,13 +85,16 @@ html{
 .img-iphone{
     display: flex;
     justify-content: center;
+    height: 60vh;
 }
 
 .footer-container{
     display: flex;
-    justify-content: space-around;
-    font-size: 12px;
-    margin-bottom: 20px;
+    justify-content: space-between;
+    font-size: 11px;
+    height: 10vh;
+    width: 75%;
+    margin-left: 250px;
 }
 
 .footer-container p{
@@ -118,11 +106,11 @@ html{
 }
 
 .footer-nav-center{
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .footer-nav-center a{
-    margin: 0 24px;
+    margin: 0 18px;
     color:#808080;
     text-decoration: none;
 }
@@ -133,7 +121,7 @@ html{
 }
 
 .footer-nav-right a{
-    margin: 0 24px;
+    margin: 0 ;
     color:#808080;
     text-decoration: none;
 }
@@ -142,3 +130,4 @@ html{
     text-decoration:underline;
     color: white;
 }
+
