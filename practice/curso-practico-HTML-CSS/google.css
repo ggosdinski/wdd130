@@ -160,6 +160,7 @@ main{
 }
 
 .main-buttons button:hover{
-    border: 1px solid lightgray;
+    /* border: 1px solid lightgray; */
+    box-shadow: 0 1px 4px lightgray;
 }
 
