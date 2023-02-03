@@ -39,3 +39,17 @@
         transform: rotate(45deg) scale(1);
     }
   }
+
+  main{
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 2px dotted red;
+    width: 250px;
+    height: 300px;
+    padding: 20px;
+  }
+
+  .title{
+   justify-content: center;
+   align-items: center;
+  }
