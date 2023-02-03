@@ -7,6 +7,7 @@
     top: 10rem;
     left: 10rem;
     animation: beating 2s ease infinite;
+   
   }
   
   .love:before,
@@ -40,16 +41,11 @@
     }
   }
 
-  main{
-    display: grid;
-    grid-template-columns: 1fr;
-    border: 2px dotted red;
-    width: 250px;
-    height: 300px;
-    padding: 20px;
+  body{
+    /* overflow-x: hidden; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
-
-  .title{
-   justify-content: center;
-   align-items: center;
-  }
+  
+ 
