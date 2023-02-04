@@ -159,7 +159,7 @@ body{
     width: 50%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-content: end;
+    justify-content: space-around;
     align-items: center;
     font-size: 12px;
     margin-left: 320px;
