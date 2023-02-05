@@ -465,6 +465,14 @@ main{
     box-shadow: 0 4px 8px rgba(89, 73,30, 0.16);
 }
 
+.first-one{
+    background: linear-gradient(322deg, rgba(242,166,13,1) 1%, rgba(198,70,252,1) 100%);
+}
+
+.second-one{
+    background: linear-gradient(322deg, rgba(13,242,174,1) 1%, rgba(70,89,252,1) 100%);
+}
+
 .recomendado{
     position: absolute;
     width: 120px;
@@ -512,7 +520,7 @@ main{
     font-size: 12px;
     line-height: 15px;
     text-align: center;
-    color: #757575;
+    color: white;
 }
 
 .plan-card-calltoaction{
@@ -526,7 +534,8 @@ main{
    /*  text-align: center; */
     padding: 10px;
     margin-top: 20px;
-    border-radius: 4px;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
 .plan-card-calltoaction span{
