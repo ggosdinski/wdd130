@@ -603,7 +603,7 @@ main{
 
 .plans-container-slider::-webkit-scrollbar {
     background-color: var(--soft-orange);
-    height: 3px;
+    height: 4px;
 }
 
 .plans-container-slider::-webkit-scrollbar-thumb {
