@@ -460,7 +460,7 @@ main{
     min-width: 230px;
     max-width: 300px;
     height: 250px;
-    margin: 50px auto 0;
+    margin: 50px 20px 0;
     padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 15px;
@@ -597,5 +597,17 @@ main{
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
-    gap: 50px;
+    margin: 0 30px;
+   /*  gap: 10px; */
 }
+
+.plans-container-slider::-webkit-scrollbar {
+    background-color: var(--soft-orange);
+    height: 3px;
+}
+
+.plans-container-slider::-webkit-scrollbar-thumb {
+    background-color: var(--bitcoin-orange);
+}
+
+
