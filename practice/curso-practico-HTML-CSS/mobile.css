@@ -33,13 +33,22 @@ header{
     height: 334px;
     text-align: center;
    /*  border: 0.5px solid black; */
-   background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+  /*  background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%); */
+    background: rgb(247,147,26);
+    background: linear-gradient(146deg, rgba(247,147,26,1) 0%, rgba(138,58,180,1) 100%);
 }
 
-header img{
+/* header img{
     width: 150px;
     height: 24px;
     margin-top: 60px;
+} */
+
+header img{
+    width: 150px;
+    height: 150px;
+    /* margin-top: 60px; */
+    object-fit: contain;
 }
 
 .header-title-container{
@@ -47,7 +56,7 @@ header img{
     min-width: 288px;
     max-width: 900px;
     height: 218px;
-    margin-top: 40px;
+  /*   margin-top: 40px; */
      /* border: 0.5px solid black; */
 }
 
@@ -113,7 +122,7 @@ main{
     width: 100%;
     height: auto;
     padding-top: 80px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -125,11 +134,11 @@ main{
 }
 
 .background-img{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin: 0 auto;
     margin-bottom: 50px;
-    background-image: url(./assets/img/Bitcoin.svg);
+    background-image: url(./ingles/english.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -144,7 +153,7 @@ main{
 }
 
 .main-exchange-container-title p{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-size: 1.4rem;
     line-height: 1.6rem;
     font-weight: 500;
@@ -157,7 +166,7 @@ main{
 
 .exchange-tablesContainer {
     display: inline-block;
-	margin-top: 40px;
+	margin-top: 25px;
 	width: 65%;
 	align-self: center;
 	min-width: 110px;
@@ -234,7 +243,7 @@ main{
 	margin-left: 10.5px;
 	width: 12px;
 	height: 8px;
-	background-image: url('./assets/icons/trending-down.svg');
+	background-image: url('./assets/icons/trending-up.svg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -289,12 +298,15 @@ main{
 
 .batata-logo{
     position: absolute;
-    background-image: url(./assets/icons/batata.svg);
-    width: 40px;
-    height: 25px;
-    top: -12px;
-    left: 42%;
-    
+    background-image: url(./ingles/2-PhotoRoom.png-PhotoRoom.png);
+    width: 120px;
+    height: 120px;
+    top: -50px;
+    left: 32%;
+    display: inline-block;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .product-detail-title{
@@ -406,14 +418,15 @@ main{
     width: 100%;
     min-height: 320px;
     height: 50vh;
-    background-image: url(./assets/img/bitcoinbaby2x.jpg);
+    background-image: url(./ingles/pexels-andrea-piacquadio-3769021.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 0 4px 8px rgba(89, 73,30, 0.16);
 }
 
 .bitcoin-img-container h2{
-    color: var(--just-white);
+    color: var(--black);
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 2.6rem;
@@ -433,7 +446,7 @@ main{
     min-width: 288px;
     height: auto;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .plans-title h2{
@@ -638,4 +651,12 @@ footer section{
 .left a{
     text-decoration:  none;
     color: var(--just-white);
+}
+
+.right img{
+    width: 120px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
 }
