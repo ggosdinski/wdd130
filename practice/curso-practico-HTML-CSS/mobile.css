@@ -454,6 +454,8 @@ main{
 
 .plans-container-cards{
     position: relative;
+    scroll-snap-align: center;
+    /*SE USA ESTA PROPIEDAD PARA EL SCROLL HORIZONTAL*/
     width: 70%;
     min-width: 230px;
     max-width: 300px;
@@ -471,6 +473,11 @@ main{
 
 .second-one{
     background: linear-gradient(322deg, rgba(13,242,174,1) 1%, rgba(70,89,252,1) 100%);
+}
+
+.third-one{
+    background: rgb(252,69,137);
+    background: linear-gradient(146deg, rgba(252,69,137,1) 0%, rgba(76,58,180,1) 100%);
 }
 
 .recomendado{
@@ -523,7 +530,7 @@ main{
     color: white;
 }
 
-.plan-card-calltoaction{
+.plan-card-calltoaction1{
     width: 150px;
     height: 48px;
     border: 2px solid var(--bitcoin-orange);
@@ -538,14 +545,57 @@ main{
     cursor: pointer;
 }
 
-.plan-card-calltoaction span{
+.plan-card-calltoaction1 span,
+.plan-card-calltoaction2 span,
+.plan-card-calltoaction3 span
+{
     display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-image: url(./assets/icons/orange-right-arrow.svg);
-   /*  background-position:center;
+    width: 10px;
+    height: 10px;
+    background-image: url(./assets/icons/down-arrow.svg);
+    background-position:center;
     background-repeat: no-repeat;
-    background-size: cover; */
-    vertical-align: text-bottom;
+    background-size: cover; 
+    vertical-align: center;
+    margin-left: 8px;
 }
 
+.plan-card-calltoaction2{
+    width: 150px;
+    height: 48px;
+    border: 2px solid #25b1cf;
+    background-color: var(--off-white);
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+   /*  text-align: center; */
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.plan-card-calltoaction3{
+    width: 150px;
+    height: 48px;
+    border: 2px solid #fc4589;
+    background-color: var(--off-white);
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+   /*  text-align: center; */
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.plans-container-slider{
+    /*SCROLL HORIZONTAL*/
+    display: flex;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    gap: 50px;
+}
