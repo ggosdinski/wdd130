@@ -88,7 +88,7 @@ body{
     display: grid;
     grid-template-columns: 3fr 1fr;
     padding-left: 15px;
-    padding-top: 25px;
+    padding-top: 20px;
 }
 
 .main-text-container h1{
