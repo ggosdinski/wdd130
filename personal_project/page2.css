@@ -93,7 +93,7 @@ body{
 
 .main-text-container h1{
     color: var(--headline-color-on-white);
-    margin-bottom: 15px;
+    margin-bottom: 8px;
     font-weight: bold;
 }
 
@@ -130,7 +130,7 @@ body{
     height: auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin: 5px auto;
+    margin: 11px auto;
     justify-content: center;
 }
 
