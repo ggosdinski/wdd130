@@ -4,53 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About me</title>
+    <title>Contact me</title>
     <link rel="stylesheet" href="./page3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100;300;700&display=swap" 
+    rel="stylesheet">
 </head>
 <body>
     <header class="header-container">
         <div class="logo-container">
-            <img src="./Images/BI Developer.png" alt="Logo">
+            <img src="" alt="">
         </div>
 
-        <nav class="nav-bar-right">
-            <ul>
-                <li><a href="https://ggosdinski.github.io/wdd130/personal_project/index.html">Home</a></li>
-                <li><a href="https://ggosdinski.github.io/wdd130/personal_project/page2.html">Benefits of Data Analysis</a></li>
-                <li><a href="https://ggosdinski.github.io/wdd130/personal_project/page3.html">About me</a></li>
+        <nav class="nav">
+            <ul class="nav-bar-right">
+                <li>
+                    <a href="https://ggosdinski.github.io/wdd130/personal_project/index.html">Home</a>
+                </li>
+                <li>
+                    <a href="https://ggosdinski.github.io/wdd130/personal_project/page2.html">About</a>
+                </li>
+                <li>
+                    <a href="https://ggosdinski.github.io/wdd130/personal_project/page3.html">Contact me</a>
+                </li>
             </ul>
         </nav>
     </header>
 
-    <main class="main-container">
-        <aside class="aside">
-            <div>
-                <img src="./Images/carlos-muza-hpjSkU2UYSU-unsplash.jpg" alt="A dashboard in a Notebook">
-            </div>
-
-            <div>
-                <img src="./Images/stephen-dawson-qwtCeJ5cLYs-unsplash.jpg" alt="image for page3">
-            </div>
-        </aside>
-
-        <section class="text-container">
-            <h1 class="title">A little about me</h1>
-            <p class="content">I am passionate about data and its analysis. I have been working for more than 2 years in different companies as a BI Developer, that is, the person in charge of the entire data analysis process. I have experience in the necessary transformations (ETL), database queries and, above all, in the creation of reports with high-quality visuals that allow you to see your company's information in a new and innovative way that facilitates the understanding of the current market. 
-                Throughout these years I have been able to work for companies in different sectors such as telecommunications, construction, transportation, mining, accounting, and oil. I have worked for very large companies and for Star-Ups. Each experience has been challenging and rewarding at the same time. I have participated in the creation of databases and data warehouse. Thanks to the work done, my clients have reported a significant improvement in decision-making, in their products and services and in the relationship with their clients.
-                I also love constant learning. For this reason, in addition to my university studies focused on applied technology, I have taken several courses related to Power BI, SQL Server, PostgreSQL, Azure and Python, to continue learning and be up to date with the latest technologies.
-                Finally, I also have knowledge in Frontend development using HTML, CSS, and JavaScript.
-                </p>
-                <h2 class="title2">I can help you to…</h2>
-                <p>I have the experience, knowledge and skills necessary to help you maximize the profitability of your Company. Perhaps you haven't realized yet how valuable resource data is. Thanks to its correct analysis and exploitation, you will be able to achieve your commercial, growth, sales, and customer acquisition objectives.
-                    My work methodology is agile, so I am able to get involved in several projects at the same time.
-                    Throughout this process I will accompany you to have excellent communication and to be able to work based on your needs and requirements. Working together will be a totally profitable and beneficial experience for both of us. 
-                    </p>
-                <h3 class="title3">How can you contact me?</h3>
-                <p>To communicate with me you can do it at this mailbox: gianfranco.gosdinski@icloud.com, leave a message through this page or you can contact me by calls or WhatsApp messages at 51-915-382-023.
-                    Once we contact each other, we will have a virtual meeting where you can tell me all about the project. I will send you a quote in a maximum of 48 hours including all the detailed expenses. If you accept the quote, I will start working immediately.
-                    </p>
+   <main class="main-container">
+        <section class="slides">
+            <img class="img1" src="./Images/businesswoman-using-tablet-analysis-graph-company-finance-strategy-statistics-success-concept-planning-future-office-room.jpg" alt="">
+            <img class="img2" src="./Images/stephen-dawson-qwtCeJ5cLYs-unsplash.jpg" alt="">
+            <img class="img3" src="./Images/pexels-anna-nekrashevich-6802049.jpg" alt="">
+            <img class="img4" src="./Images/pexels-luis-gomes-546819.jpg" alt="">
         </section>
-    </main>
+
+        <section class="right-container">
+            <div class="container">
+                <form action="action_page.php">
+              
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="fullname" placeholder="Your full name..">
+              
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="Usa">Usa</option>
+                    <option value="canada">Canada</option>
+                    <option value="Perú">Perú</option>
+                  </select>
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+            </div>
+        </section>
+   </main>
 
     <footer class="footer-container">
         <div class="footer-left">

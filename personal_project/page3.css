@@ -1,13 +1,220 @@
+:root {
+    --primary-color: #396E94   ;
+    --secondary-color: #F29E4C ;
+    --accent1-color:#9E0059;
+    --accent2-color: white;
+    --heading-font: "IM Fell French Canon SC";
+    --paragraph-font: 'Roboto', sans-serif;
+    --headline-color-on-white: #396E94;  /* headlines on a white background */ 
+    --headline-color-on-color: white; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #396E94  ;
+    --nav-link-color: #396E94;
+    --nav-background-color: #F29E4C;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #396E94;
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body{
+    font-family: 'roboto';
+}
 
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   /*  height: 15vh; */
+    height: 80px; 
+    border-bottom: 0.5px solid var(--nav-background-color);
+} 
 
-
+.logo-container{
+    display: flex;
+    width: 500px;
+    height: auto;
+}
 
 .logo-container img{
-    width:200px;
+    background-image: url('./Images/gianfranco-gosdinski-logo.png');
+    background-position:left;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    margin-right: 180px;
 }
 
-.aside img{
-    width: 300px;
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.nav-bar-right{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar-right li{
+    list-style: none;
+    margin-right: 12px;
+}
+
+/* .nav-bar-right a{
+    text-decoration: none;
+    padding: 0 15px;
+    color: var(--headline-color-on-white);
+}
+
+.nav-bar-right a:hover{
+    background-color: var(--nav-background-color);
+    border-radius: 10px;
+    padding: 8px 15px;
+    color: var(--headline-color-on-color);
+}
+ */
+
+.nav-bar-right a{
+    text-decoration: none;
+    padding: 0 15px;
+    background-image: linear-gradient(#F29E4C, #F29E4C);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 1px;
+    transition: background-size .5s;
+}
+
+.nav-bar-right a:hover, a:focus {
+    background-size: 100% 1px;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.slides{
+    display: grid;
+    grid-template-columns: 300px 300px;
+   /*  grid-template-rows: 180px 180px; */
+    gap: 25px;
+    justify-content: center;
+    padding: 10px 15px 10px 0;
+}
+
+.slides img{
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+.slides img:hover{
+    filter: saturate(180%);
+}
+
+.right-container{
+    width: 100%;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+    padding: 10px 15px 10px 0;
+    line-height: 20px;
+}
+
+h2{
+    color: var(--headline-color-on-white);
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+p{
+    color: var(--paragraph-background-color);
+    line-height: 20px;
+    font-size: 14px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid var(--paragraph-background-color);
+    border-radius: 4px; 
+   /* margin-top: 6px;  Add a top margin
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: var(--nav-background-color);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  input[type=submit]:hover {
+    background-color: var(--accent1-color);
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+.footer-container{
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    border-top: 0.5px solid var(--nav-background-color);
+}
+
+.footer-left{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: end;
+    align-items: center;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.footer-right{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: end;
+    align-items: center;
+    font-size: 12px;
+    margin-left: 50%;
+    /*I need help here please!*/
+}
+
+.footer-container a{
+    text-decoration: none;
+}
+
+.footer-container a:hover { 
+    color: var(--accent1-color);
+    font-weight: 600;
+} 
 
